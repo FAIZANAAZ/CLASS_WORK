@@ -1,9 +1,12 @@
-import HEADER_WITH_FOOTER from "@/components/hello/head_foot";
-
+import HEADER_WITH_FOOTER from "./porfolio/head_foot"
+import React from "react"
 
  function Home() {
   return (
+    
+    
     <HEADER_WITH_FOOTER/>
+   
   )
 }
 
