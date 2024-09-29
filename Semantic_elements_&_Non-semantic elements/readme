@@ -1,0 +1,36 @@
+
+
+Semantic elements
+
+          wo hote hain jin ko dekh kar hi yeh andaza lag jata hai ke yeh element kis kaam ke liye hai. Jaise ke:
+
+<header> se samajh ata hai ke yeh page ka header yaani shuruat wala hissa hai.
+<footer> se yeh pata chalta hai ke yeh page ka niche ka hissa hai.
+
+In elements ka maqsad unke naam se hi wazeh hota hai, aur yeh SEO (search engine optimization) aur accessibility ke liye bhi helpful hote hain.
+
+Readability: Code zyada readable hota hai aur doosray developers ya aap khud bhi code ko asaani se samajh sakte hain.
+
+SEO (Search Engine Optimization): Search engines (jaise Google) ko bhi semantic elements se asaani hoti hai, kyun ke yeh sections samajhne mein madadgar hote hain.
+
+Accessibility: Screen readers (jo visually impaired users ke liye hote hain) ko bhi yeh clear sections read karna zyada asaan hota hai.
+; /////////////////////////////*******************************///////////////////////////////
+
+Non-semantic elements 
+
+            jaise ke <div> aur <span>, inka naam se yeh pata nahi chalta ke inka maqsad kya hai. Yeh bas layout banane ke liye use hote hain,
+             aur inko kisi bhi cheez ke liye customize kiya ja sakta hai. Jaise ke, <div> kisi section ka design ya kisi aur kaam ke liye 
+             use kiya ja sakta hai, lekin isme koi fixed meaning nahi hota.
+
+             To semantic elements ka faida yeh hai ke yeh code ko zyada readable aur samajhne mein asaan banate hain, 
+             jabke non-semantic elements zyada flexible  hote hain aur unko har tarah se use kiya ja sakta hai.
+
+
+
+
+; /////////////////////////////*******************************///////////////////////////////
+
+
+Agar  specific section ka clear purpose batana chahte hain, toh semantic elements ka use acha hota hai (jaise <header>, <footer>).
+Agar  bas layout banane ya styling ke liye container chahiye, toh non-semantic elements jaise <div> zyada flexible aur suitable hote hain.
+
