@@ -23,13 +23,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-   <header className="h-[50px]  flex justify-between p-[15px] md:text-[30px] md:h-[80px]">
+   <header className="tracking-in-expand h-[50px]  flex justify-between p-[15px] md:text-[30px] md:h-[80px]">
 
     <Link href={"/"} className=" active text-white uppercase font-bold hover:underline">Home</Link>
     <Link href={"./Iphon"} className=" active text-white uppercase font-bold hover:underline">Iphones</Link>
     <Link href={"./Earbuds"} className=" active text-white uppercase font-bold hover:underline ">Earbuds</Link>
     <Link href={"./Watch"} className=" active text-white uppercase font-bold hover:underline hidden sm:block md:block">Watches</Link>
-    <Link href={"./Keychain"} className=" active text-white uppercase font-bold hover:underline hidden sm:block md:block ">Keychain</Link>
+    <Link href={"./Keychain"} className="  active text-white uppercase font-bold hover:underline hidden sm:block md:block ">Keychain</Link>
 
     </header>
         {children}

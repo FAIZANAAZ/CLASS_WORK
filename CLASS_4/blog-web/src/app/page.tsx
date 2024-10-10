@@ -1,4 +1,6 @@
-import { link } from "fs";
+"use client"
+
+import { Head } from "next/document";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,11 +9,12 @@ import Link from "next/link";
 export default function Home() {
   return (
   <>
+
   <Image width={1000} height={1000} src={"/iphonbggg.jpg"} alt="iphon picture" className=" w-outo h-[200px] sm:w-[740px] sm:h-[300px]  md:w-full md:h-[500px] "/>
 
   <section className="bg-gray-1000 flex justify-between p-[20px] flex-wrap md:px-[80px]">
 
-    <div className="bg-white mb-[20px] rounded-[20px] h-[250px] w-[200px] text-center relative md:h-[450px] md:w-[333px] ">
+    <div className=" shadowcn bg-white mb-[20px] rounded-[20px] h-[250px] w-[200px] text-center relative md:h-[450px] md:w-[333px] ">
          <img src="/viphon.jpg" alt="pic" className="h-[130px] mt-[5px] ml-[12px] md:h-[280px] md:w-[314px] " />
 
             <p className="absolute top-[150px] left-[50px] text-blue-800 font-bold text-[25px] md:left-[80px] md:top-[310px] md:text-[40px]" >IPHONES</p>
@@ -20,7 +23,7 @@ export default function Home() {
            
   </div>
 
-  <div className="bg-white mb-[20px] rounded-[20px] h-[250px] w-[200px] text-center relative md:h-[450px] md:w-[333px] ">
+  <div className="shadowcn bg-white mb-[20px] rounded-[20px] h-[250px] w-[200px] text-center relative md:h-[450px] md:w-[333px] ">
          <img src="/watches.jpg" alt="pic" className="h-[130px] mt-[5px] ml-[12px] md:h-[280px] md:w-[314px] " />
 
             <p className="absolute top-[150px] left-[50px] text-blue-800 font-bold text-[25px] md:left-[80px] md:top-[310px] md:text-[40px]" >WATCHES</p>
@@ -28,7 +31,7 @@ export default function Home() {
            
   </div>
 
-  <div className="bg-white mb-[20px] rounded-[20px] h-[250px] w-[200px] text-center relative md:h-[450px] md:w-[333px] ">
+  <div className="shadowcn bg-white mb-[20px] rounded-[20px] h-[250px] w-[200px] text-center relative md:h-[450px] md:w-[333px] ">
          <img src="/earbuds.jpg" alt="pic" className="h-[130px] mt-[5px] ml-[12px] md:h-[280px] md:w-[314px] " />
 
             <p className="absolute top-[150px] left-[50px] text-blue-800 font-bold text-[25px] md:left-[80px] md:top-[310px] md:text-[40px]" >EARBUDS</p>
@@ -36,7 +39,7 @@ export default function Home() {
            
   </div>
 
-  <div className="bg-white mb-[20px] rounded-[20px] h-[250px] w-[200px] text-center relative md:h-[450px] md:w-[333px] ">
+  <div className="shadowcn bg-white mb-[20px] rounded-[20px] h-[250px] w-[200px] text-center relative md:h-[450px] md:w-[333px] ">
          <img src="/cover.jpg" alt="pic" className="h-[130px] mt-[5px] ml-[12px] md:h-[300px] md:w-[314px] " />
 
             <p className="absolute top-[150px] left-[50px] text-blue-800 font-bold text-[25px] md:left-[80px] md:top-[310px] md:text-[40px]" >COVERS</p>
@@ -44,7 +47,7 @@ export default function Home() {
            
   </div>
 
-   <div className="bg-white mb-[20px] rounded-[20px] h-[250px] w-[200px] text-center relative md:h-[450px] md:w-[333px] ">
+   <div className="shadowcn bg-white mb-[20px] rounded-[20px] h-[250px] w-[200px] text-center relative md:h-[450px] md:w-[333px] ">
          <img src="/keychain.jpg" alt="pic" className="h-[130px] mt-[5px] ml-[12px] md:h-[280px] md:w-[314px] " />
 
             <p className="absolute top-[150px] left-[50px] text-blue-800 font-bold text-[25px] md:left-[80px] md:top-[310px] md:text-[40px]" >KEYCHAIN</p>
@@ -52,7 +55,7 @@ export default function Home() {
            
   </div>
 
-  <div className="bg-white mb-[20px] rounded-[20px] h-[250px] w-[200px] text-center relative md:h-[450px] md:w-[333px] ">
+  <div className="shadowcn bg-white mb-[20px] rounded-[20px] h-[250px] w-[200px] text-center relative md:h-[450px] md:w-[333px] ">
          <img src="/charger.jpg" alt="pic" className="h-[130px] mt-[5px] ml-[12px] md:h-[280px] md:w-[314px] " />
 
             <p className="absolute top-[150px] left-[50px] text-blue-800 font-bold text-[25px] md:left-[80px] md:top-[310px] md:text-[40px]" >CHARGERS</p>
