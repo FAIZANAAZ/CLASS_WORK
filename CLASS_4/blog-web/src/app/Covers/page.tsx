@@ -45,9 +45,9 @@ function Covers() {
    Color: Nature Titanium
   </div>
   <div className="flex space-x-2 h-[30px] w-[130px] md:h-[50px] md:w-[50px]">
-   <img alt="Nature Titanium color option" className="border-2 border-blue-500 p-1 rounded-md" height="50" src="https://storage.googleapis.com/a1aa/image/IEKaqTmfOSXQeEp0frVR9aiPhRgeIwc8f7pLFDK0N1BKkOpcC.jpg" width="50"/>
-   <img alt="Other color option 1" className="border-2 border-gray-300 p-1 rounded-md" height="50" src="https://storage.googleapis.com/a1aa/image/cgaBfUSfLAmf4pfiIqKT0FYMedc7qMliZIIx14uJVw80jOpcC.jpg" width="50"/>
-   <img alt="Other color option 2" className="border-2 border-gray-300 p-1 rounded-md" height="50" src="https://storage.googleapis.com/a1aa/image/TUeo23LWz03rGiB81ccZfOcRMuVIEowGFNdDU44hjucg0JlTA.jpg" width="50"/>
+   <img alt="Nature Titanium color option" className="border-2 border-blue-500 p-1 rounded-md" height="50" src="https://cdn.britannica.com/70/191970-131-A85628DA/Color-wheel-light-color-spectrum.jpg" width="50"/>
+   <img alt="Other color option 1" className="border-2 border-gray-300 p-1 rounded-md" height="50" src="https://cdn.britannica.com/70/191970-131-A85628DA/Color-wheel-light-color-spectrum.jpg" width="50"/>
+   <img alt="Other color option 2" className="border-2 border-gray-300 p-1 rounded-md" height="50" src="https://cdn.britannica.com/70/191970-131-A85628DA/Color-wheel-light-color-spectrum.jpg" width="50"/>
   </div>
  </div>
  <div className="mb-4">
