@@ -17,3 +17,8 @@ body {
 }
 
 
+#section7{
+  background-image: url("/public/picbgsec7.png");
+  background-position: center;
+  background-size: cover;
+}
