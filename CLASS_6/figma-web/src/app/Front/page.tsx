@@ -15,6 +15,8 @@ import { LuHeadphones } from "react-icons/lu";
 import { MdOutlineVideogameAsset } from "react-icons/md"
 import { PiDotsThreeOutlineLight } from "react-icons/pi";
 
+import "./style.css"
+
 
 function Front() {
   let sec2: any = [
@@ -78,7 +80,7 @@ function Front() {
 
 
 
-  // sex4
+  // sec4
   let sec4: any = [
     {
       p1: "Apple iPhone 14 ",
@@ -350,7 +352,7 @@ function Front() {
             {sec4.map((items:any, index:any)=>{
               return(
                 <div key={index} className="abcdiv w-[163.5px]  h-[332px] ml-[5px] pl-[20px] px-[12px] py-[24px] bg-[#f6f6f6] rounded-[9px] ">
-                <div className="ml-[100px] h-[28px] text-end text-[20px] gap-x-[8px] mb-[8px]"><CiHeart /></div>
+                <div className="ml-[100px] h-[28px] text-end text-[30px] gap-x-[8px] mb-[8px]"><CiHeart /></div>
                 <Image src={items.pic} alt={"phon"} width={104} height={104} className="w-[104px] h-[104px]"></Image>
                 <pre className="leading-[18px] text-center font-semibold text-[14px] mt-[15px]">{items.p1}<br/>
               {items.p2}</pre>
@@ -408,7 +410,7 @@ function Front() {
 {sec6.map((items:any, index:any)=>{
               return(
                 <div key={index} className=" w-[163.5px]  h-[332px] ml-[5px] pl-[20px] px-[12px] py-[24px] bg-[#f6f6f6] rounded-[9px] ">
-                <div className="ml-[100px] h-[28px] text-end text-[20px] gap-x-[8px] mb-[8px]"><CiHeart /></div>
+                <div className="ml-[100px] h-[28px] text-end text-[30px] gap-x-[8px] mb-[8px]"><CiHeart /></div>
                 <Image src={items.pic} alt={"phon"} width={104} height={104} className="w-[104px] h-[104px]"></Image>
                 <pre className="leading-[18px] text-center font-semibold text-[14px] mt-[15px]">{items.p1}<br/>
               {items.p2}</pre>
@@ -420,6 +422,35 @@ function Front() {
               )
             })}
 </div>
+        </section>
+
+        {/* sec7 */}
+
+        <section id="section7" className="sec7  w-[375px] h-[512px] flex flex-col gap-y-[8px] px-[16px] py-[104px] " >
+
+         <div className="h-[304px] w-[343px] flex flex-col items-center gap-y-[40px]  ">
+          <div className="w-[343px] h-[208px] flex flex-col gap-y-[40px] items-center">
+            
+          <p className=" text-center font-extralight  w-[343px] text-[50px] text-[#FFFFFF]  tracking-[-1%]  ">
+          Big Summer {" "}
+                <span className="mt-[100px] font-bold relative ">
+                 Sale
+                </span>
+              </p>
+
+              <pre className="text-[17px] h-[48px] w-[343px] text-center text-[#909090] relative bottom-11 font-medium ">
+                Created to change everything for the
+                <br />
+                better. For everyone
+              </pre>
+          </div>
+          <button className="w-[191px] h-[56px] align-middle px-[50px] py-[16px] gap-[8px] rounded-[6px] font-[600] text-white border-solid border-[2px]">
+              Shop Now
+            </button>
+          
+          </div> 
+
+
         </section>
 
       </main>
